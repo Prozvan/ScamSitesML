@@ -1,0 +1,313 @@
+{
+    "LinearSVC": {
+        "name": "LinearSVC",
+        "index": 1,
+        "even_data": false,
+        "metrics": {
+            "accuracy": 0.9339449541284404,
+            "recall": 0.9278215223097113,
+            "precision": 0.8881909547738693,
+            "f1": 0.9075738125802311
+        },
+        "real_test": {
+            "real_values_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "prediction_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        "test_ratio": 0.125,
+        "train_time": 1.22585821,
+        "predict_time": 0.0,
+        "file_name": "2024-09-24 09-18-34 LinearSVC"
+    },
+    "KNeighborsClassifier": {
+        "name": "KNeighborsClassifier",
+        "index": 2,
+        "even_data": false,
+        "metrics": {
+            "accuracy": 0.9602752293577982,
+            "recall": 0.9437386569872959,
+            "precision": 0.9439834024896265,
+            "f1": 0.9438610138726825
+        },
+        "real_test": {
+            "real_values_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "prediction_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        "test_ratio": 0.125,
+        "train_time": 0.09530902,
+        "predict_time": 3.39584231,
+        "file_name": "2024-09-24 08-28-17 KNeighborsClassifier"
+    },
+    "MultinomialNB": {
+        "name": "MultinomialNB",
+        "index": 3,
+        "even_data": true,
+        "metrics": {
+            "accuracy": 0.8967598058507149,
+            "recall": 0.972556194458965,
+            "precision": 0.8451056098114922,
+            "f1": 0.9043626200024304
+        },
+        "real_test": {
+            "real_values_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "prediction_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        "test_ratio": 0.125,
+        "train_time": 0.01562858,
+        "predict_time": 0.0,
+        "file_name": "2024-09-24 08-29-44 MultinomialNB"
+    },
+    "LogisticRegression": {
+        "name": "LogisticRegression",
+        "index": 4,
+        "even_data": false,
+        "metrics": {
+            "accuracy": 0.9381651376146789,
+            "recall": 0.9202390231228891,
+            "precision": 0.9061140956766437,
+            "f1": 0.9131219386439804
+        },
+        "real_test": {
+            "real_values_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "prediction_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        "test_ratio": 0.125,
+        "train_time": 2.87762904,
+        "predict_time": 0.0,
+        "file_name": "2024-09-25 09-08-22 LogisticRegression"
+    },
+    "SVC": {
+        "name": "SVC",
+        "index": 5,
+        "even_data": true,
+        "metrics": {
+            "accuracy": 0.927194018103109,
+            "recall": 0.9634146341463414,
+            "precision": 0.897062453715132,
+            "f1": 0.929055349610124
+        },
+        "real_test": {
+            "real_values_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "prediction_test": [
+                0,
+                0,
+                1,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        "test_ratio": 0.125,
+        "train_time": 99.33880901,
+        "predict_time": 13.34747052,
+        "file_name": "2024-09-24 08-37-00 SVC"
+    },
+    "Convolutional Neural Network": {
+        "name": "Convolutional Neural Network",
+        "index": 6,
+        "even_data": false,
+        "metrics": {
+            "accuracy": 0.9468807339449541,
+            "recall": 0.9178756476683938,
+            "precision": 0.9311432325886991,
+            "f1": 0.9244618395303327
+        },
+        "real_test": {
+            "real_values_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "prediction_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        "nn_conf": {
+            "validation_split": 0.25,
+            "epochs": 10,
+            "batch_size": 128
+        },
+        "test_ratio": 0.125,
+        "train_time": 273.4006536,
+        "predict_time": 3.33704019,
+        "file_name": "2024-09-26 08-53-39 Convolutional Neural Network"
+    },
+    "Multi-layer Perceptron": {
+        "name": "Multi-layer Perceptron",
+        "index": 7,
+        "even_data": true,
+        "metrics": {
+            "accuracy": 0.9429358520267611,
+            "recall": 0.9489876413357875,
+            "precision": 0.9374025974025973,
+            "f1": 0.9431595452763623
+        },
+        "real_test": {
+            "real_values_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ],
+            "prediction_test": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                1,
+                1,
+                1,
+                1,
+                1
+            ]
+        },
+        "test_ratio": 0.125,
+        "train_time": 151.81963158,
+        "predict_time": 0.06328869,
+        "file_name": "2024-09-27 08-50-05 Multi-layer Perceptron"
+    },
+    "RandomForestClassifier": {
+        "name": "RandomForestClassifier",
+        "index": 0,
+        "even_data": true,
+        "metrics": {
+            "accuracy": 0.9670733307096944,
+            "recall": 0.971627408993576,
+            "precision": 0.9615894039735099,
+            "f1": 0.9665823458926908
+        },
+        "real_test": {
+            "real_values_test": "[0, 0, 0, 0, 0, 1, 1, 1, 1, 1]",
+            "prediction_test": "[0, 0, 0, 0, 0, 1, 1, 1, 1, 1]"
+        },
+        "test_ratio": 0.125,
+        "train_time": 2.33231258,
+        "predict_time": 0.05338407,
+        "file_name": "2025-08-08 16-22-33 RandomForestClassifier"
+    }
+}
