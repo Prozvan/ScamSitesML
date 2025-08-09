@@ -1,20 +1,5 @@
-RandomForestClassifier doesn't need NORMALIZATION                - ma ipynb za best % features
-LinearSVC with NORMALIZATION - way better - faster
-KNeighborsClassifier with NORMALIZATION - way better - faster
-MultinomialNB doesn't need NORMALIZATION
-LogistiCRegression doesn't need NORMALIZATION
-SVC with NORMALIZATION - better
-NN with NORMALIZATION        za 5 podanih linkov rab 0.28 sekunde
-- Best params:
-  - 0.25-128-15
-  - 0.2-128-15
-  - 0.25-128-10
-MLPc with NORMALIZATION
+# Machine Learning Program
 
-
-
-
-Pol k boš šu deep not za vsakega posebej dj najači random state, ki je tukaj not "train_test_split"
 
 
 
